@@ -157,6 +157,7 @@ const factory = (Dialog, Calendar) => {
               theme={this.props.theme}
               locale={this.props.locale}
               sundayFirstDayOfWeek={this.props.sundayFirstDayOfWeek}
+              handleSwitchDisplay={this.props.handleSwitchDisplay}
             />
           </div>
         </Dialog>

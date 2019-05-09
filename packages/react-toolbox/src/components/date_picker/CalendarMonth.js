@@ -81,7 +81,7 @@ class Month extends Component {
     const fullYear = this.props.viewDate.getFullYear();
     return (
       <div data-react-toolbox="month" className={this.props.theme.month}>
-        <span className={this.props.theme.title}>
+        <span className={this.props.theme.title} onClick={this.props.handleSwitchDisplay}>
           {fullMonth} {fullYear}
         </span>
         <div className={this.props.theme.week}>{this.renderWeeks()}</div>
