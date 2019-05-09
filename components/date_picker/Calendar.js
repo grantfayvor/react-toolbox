@@ -163,6 +163,7 @@ const factory = (IconButton) => {
                 sundayFirstDayOfWeek={this.props.sundayFirstDayOfWeek}
                 theme={this.props.theme}
                 viewDate={this.state.viewDate}
+                handleSwitchDisplay={this.props.handleSwitchDisplay}
               />
             </CSSTransition>
           </TransitionGroup>
